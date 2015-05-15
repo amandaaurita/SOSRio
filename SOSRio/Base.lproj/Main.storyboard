@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fsu-qy-RmL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mLE-pR-nzS">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--Telephones-->
+        <!--Navigation Controller-->
+        <scene sceneID="IQb-AQ-CZk">
+            <objects>
+                <navigationController extendedLayoutIncludesOpaqueBars="YES" id="mLE-pR-nzS" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="EXu-d7-qrJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fsu-qy-RmL" kind="relationship" relationship="rootViewController" id="apI-eH-1UN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kna-9R-Vle" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="-158"/>
+        </scene>
+        <!--SOS Rio-->
         <scene sceneID="Vf2-iZ-zYj">
             <objects>
                 <tableViewController storyboardIdentifier="phones" id="fsu-qy-RmL" customClass="Telephones" customModule="SOSRio" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="JqL-5z-a8n">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -25,10 +42,11 @@
                             <outlet property="delegate" destination="fsu-qy-RmL" id="Gm6-Rw-PFc"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="SOS Rio" id="9ck-lb-2OL"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JKu-w4-SZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="224" y="263"/>
+            <point key="canvasLocation" x="792" y="-158"/>
         </scene>
     </scenes>
 </document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B38F71A5-04E3-4F8D-9740-1EC846237407</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SOSRio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF8049DA3D1825139A23EB082AC35146965080A8</key>
+		<string>https://github.com/amandaaurita/SOSRio.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SOSRio.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF8049DA3D1825139A23EB082AC35146965080A8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/amandaaurita/SOSRio.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF8049DA3D1825139A23EB082AC35146965080A8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF8049DA3D1825139A23EB082AC35146965080A8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SOSRio</string>
+		</dict>
+	</array>
+</dict>
+</plist>

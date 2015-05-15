@@ -35,8 +35,6 @@ class Telephones: UITableViewController {
             
             
            var cell :  UITableViewCell? = self.tableView.dequeueReusableCellWithIdentifier("cell") as?  UITableViewCell
-            
-        
         
             
             switch indexPath.row
@@ -61,53 +59,54 @@ class Telephones: UITableViewController {
                 
                 case 0:
                     cell?.textLabel?.text = "Ambulância"
-                    cell?.backgroundColor = UIColor.redColor()
+                    cell?.backgroundColor = UIColor(red: 0.9921, green: 0.2509, blue: 0.2862, alpha: 1)
+                    //cell?.textLabel?.text = UIFont(name: "Verdana", size: 30)
                 
                 case 1:
                     cell?.textLabel?.text = "Bombeiros"
-                    cell?.backgroundColor = UIColor.redColor()
+                    cell?.backgroundColor = UIColor(red: 0.9921, green: 0.2509, blue: 0.2862, alpha: 1)
                 
                 case 2:
                     cell?.textLabel?.text = "Defesa Civil"
-                    cell?.backgroundColor = UIColor.redColor()
+                    cell?.backgroundColor = UIColor(red: 0.9921, green: 0.2509, blue: 0.2862, alpha: 1)
                 
                 case 3:
                     cell?.textLabel?.text = "Polícia"
-                    cell?.backgroundColor = UIColor.redColor()
+                    cell?.backgroundColor = UIColor(red: 0.9921, green: 0.2509, blue: 0.2862, alpha: 1)
                 
                 case 4:
-                    cell?.textLabel?.text = "Delegacia da mulher"
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.textLabel?.text = "Delegacia da Mulher"
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
                 
                 case 5:
                     cell?.textLabel?.text = "DETRAN"
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
 
                 case 6:
-                    cell?.textLabel?.text = "Policia Cicil"
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.textLabel?.text = "Polícia Civil"
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
 
                 case 7:
-                    cell?.textLabel?.text = "Policia Federal"
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.textLabel?.text = "Polícia Federal"
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
 
                 case 8:
                     cell?.textLabel?.text = "Polícia Rodoviária Estadual"
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
 
                 
                 case 9:
                     cell?.textLabel?.text = "Polícia Rodoviária Federal"
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
 
                 case 10:
                     cell?.textLabel?.text = "Procon"
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
 
                 
                 default:
                     cell?.textLabel?.text = " "
-                    cell?.backgroundColor = UIColor.yellowColor()
+                    cell?.backgroundColor = UIColor(red: 0.9647, green: 0.9450, blue: 0.1254, alpha: 1)
 
                 
             }
@@ -181,34 +180,34 @@ class Telephones: UITableViewController {
         switch indexPath.row
         {
             case 0:
-                createAlert("192", message: "Ambulancia")
+                createAlert("192", message: "Ambulância")
             
             case 1 :
                 createAlert("193", message: "Bombeiros")
             
             case 2:
-                createAlert("199", message: "Defesa civil")
+                createAlert("199", message: "Defesa Civil")
             
             case 3:
-                createAlert("190", message: "Policia")
+                createAlert("190", message: "Polícia")
             
             case 4:
-                createAlert("213399-3690", message: "Delegacia da mulher")
+                createAlert("213399-3690", message: "Delegacia da Mulher")
             
             case 5:
                 createAlert("2124604042", message: "DETRAN")
             
             case 6:
-                createAlert("2133993217", message: "Policia Civil")
+                createAlert("2133993217", message: "Polícia Civil")
             
             case 7:
-                createAlert("2122912142", message: "Policia Federal")
+                createAlert("2122912142", message: "Polícia Federal")
             
             case 8:
-                createAlert("2133994857", message: "Policia Rodoviaria Estadual")
+                createAlert("2133994857", message: "Polícia Rodoviária Estadual")
             
             case 9:
-                createAlert("2124716111", message: "Policia Rodoviaria Federal")
+                createAlert("2124716111", message: "Polícia Rodoviária Federal")
             
             case 10:
                 createAlert("1512", message: "Procon")
