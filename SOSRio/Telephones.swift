@@ -11,7 +11,7 @@ import UIKit
 class Telephones: UITableViewController {
 
     
-        var items: [String] = ["Travel", "Dance", "Food"]
+        
     
         
         override func viewDidLoad() {
@@ -140,6 +140,8 @@ class Telephones: UITableViewController {
             (action) in
             self.dismissViewControllerAnimated(false, completion: nil)
         })
+        
+       
         
         
         
